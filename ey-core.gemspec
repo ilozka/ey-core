@@ -29,7 +29,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "ey-hmac", "~> 2.0"
   gem.add_dependency "escape"
   gem.add_dependency "hashie", "~> 4.1.0"
-  gem.add_dependency "faraday"
+  gem.add_dependency "faraday", "~> 2.6"
   gem.add_dependency "faraday-multipart"
  # gem.add_dependency "faraday_middleware"
   gem.add_dependency "rack"
