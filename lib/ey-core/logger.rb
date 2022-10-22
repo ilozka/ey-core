@@ -1,4 +1,4 @@
-class Ey::Core::Logger < Faraday::Response::Middleware
+class Ey::Core::Logger < Faraday::Middleware
   extend Forwardable
 
   def initialize(app, logger = nil)
