@@ -30,7 +30,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "escape"
   gem.add_dependency "hashie", "~> 4.1.0"
   gem.add_dependency "faraday"
-  gem.add_dependency "faraday_middleware"
+ # gem.add_dependency "faraday_middleware"
   gem.add_dependency "rack"
   gem.add_dependency "faye"
   gem.add_dependency "highline"
