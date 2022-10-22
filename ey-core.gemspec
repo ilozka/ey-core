@@ -34,7 +34,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rack"
   gem.add_dependency "faye"
   gem.add_dependency "highline"
-  gem.add_dependency "json", "~> 2.3.0"
+  gem.add_dependency "json"
   gem.add_dependency "mime-types"
   gem.add_dependency "oj"
   gem.add_dependency "oj_mimic_json"
