@@ -1,4 +1,4 @@
-class Ey::Core::TokenAuthentication < Faraday::Response::Middleware
+class Ey::Core::TokenAuthentication < Faraday::Middleware
   attr_reader :token
 
   def initialize(app, token)
