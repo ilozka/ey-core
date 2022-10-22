@@ -6,7 +6,7 @@ require 'ey-hmac'
 require 'ey-hmac/faraday'
 require 'faraday'
 require 'faraday/multipart'
-# require 'faraday_middleware'
+require 'faraday/retry'
 require 'mime/types'
 require 'sshkey'
 

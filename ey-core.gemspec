@@ -31,6 +31,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "hashie", "~> 4.1.0"
   gem.add_dependency "faraday", "~> 2.6"
   gem.add_dependency "faraday-multipart"
+  gem.add_dependency "faraday-retry"
  # gem.add_dependency "faraday_middleware"
   gem.add_dependency "rack"
   gem.add_dependency "faye"
