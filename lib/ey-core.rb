@@ -5,7 +5,7 @@ require 'cistern'
 require 'ey-hmac'
 require 'ey-hmac/faraday'
 require 'faraday'
-require 'faraday_middleware'
+# require 'faraday_middleware'
 require 'mime/types'
 require 'sshkey'
 
